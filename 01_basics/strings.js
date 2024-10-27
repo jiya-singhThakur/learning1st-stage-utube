@@ -17,10 +17,18 @@ console.log(gameName.indexOf('t')); //2
 
 const newString =gameName.substring(0,4)
 console.log(newString); //hite
-chr
+
 const anotherString=gameName.slice(-8,4)
 console.log(anotherString); //ite
 
  const ewStringONE= "  hitesh   "
  console.log(newStringOne);
- console.log(newtringOne.trim());
+ console.log(newtringOne.trim()); //it removes the starting and ending space
+
+ const url="https://hitesh.com/hitesh%20choudhary"
+ console.log(url.replace('%20','-'))
+ console.log(url.includes('hitesh')) //is it hitesh in the url?
+
+ //const gameName=new String('hitesh-hc-com')
+ //console.log(gameName.split('-')) it splits the string 
+ //on the basis of dash output array=['hitesh','hc','com']
