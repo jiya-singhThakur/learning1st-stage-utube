@@ -5,7 +5,7 @@ console.log(typeof (score));
 
 let valueInNumber=Number(score)
 console.log(typeof valueInNumber) //number
-console.log( valueInNumber) 
+console.log( valueInNumber) //if score=33abc athen this will give nan
 
 //"33"(string)->33(number)
 //"33abc"->NaN
